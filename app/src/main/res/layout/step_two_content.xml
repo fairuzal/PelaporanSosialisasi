@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/footer"
+    android:layout_below="@+id/headerstepbar">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="10dp"
+        android:padding="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/tvAcara"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:text="Nama Acara"
+                android:textSize="16dp" />
+            <EditText
+                android:id="@+id/etAcara"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/tvAcara" />
+            <Button
+                android:id="@+id/bt_ppicker"
+                android:layout_marginTop="20dp"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/etAcara"
+                android:layout_toRightOf="@id/tv_place_id"
+                android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"/>
+            <TextView
+                android:id="@+id/tv_place_id"
+                android:text="Lokasi"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvAcara"
+                android:textSize="16dp"/>
+            <EditText
+                android:id="@+id/tv_gps"
+                android:inputType="textImeMultiLine"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/bt_ppicker"
+                android:layout_below="@id/etAcara"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/tvKecamatan"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tv_gps"
+                android:layout_marginTop="20dp"
+                android:text="Kecamatan"
+                android:textSize="16dp" />
+            <Spinner
+                android:id="@+id/etKecamatan"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/tv_gps"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/tvTanggal"
+                android:spinnerMode="dropdown" />
+            <TextView
+                android:id="@+id/tvKelurahan"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvKecamatan"
+                android:layout_marginTop="20dp"
+                android:text="Kelurahan"
+                android:textSize="16dp" />
+            <Spinner
+                android:id="@+id/etKelurahan"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/etKecamatan"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/tvKelurahan"
+                android:spinnerMode="dropdown" />
+            <TextView
+                android:id="@+id/tvTanggal"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvKelurahan"
+                android:layout_marginTop="20dp"
+                android:inputType="date"
+                android:text="Tanggal"
+                android:textSize="16dp" />
+            <EditText
+                android:id="@+id/etTanggal"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/etKelurahan"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/tvTanggal"
+                android:clickable="true"
+                android:editable="false"
+                android:focusable="false" />
+            <TextView
+                android:id="@+id/tvJam"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tvTanggal"
+                android:layout_marginTop="20dp"
+                android:text="Jam"
+                android:textSize="16dp" />
+            <EditText
+                android:id="@+id/etJam1"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvTanggal"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/tvJam"
+                android:clickable="true"
+                android:editable="false"
+                android:focusable="false" />
+            <TextView
+                android:id="@+id/strip"
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvTanggal"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/etJam1"
+                android:text="-"
+                android:textAlignment="center"
+                android:textSize="40dp" />
+            <EditText
+                android:id="@+id/etJam2"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvTanggal"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/strip"
+                android:clickable="true"
+                android:editable="false"
+                android:focusable="false" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

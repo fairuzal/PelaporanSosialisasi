@@ -1,0 +1,26 @@
+[
+  {
+    "kode": "BN",
+    "nama": "BENER",
+    "kode_angka_kel": 1004,
+    "kode_angka_kel_full": 3471011004
+  },
+  {
+    "kode": "KC",
+    "nama": "KRICAK",
+    "kode_angka_kel": 1001,
+    "kode_angka_kel_full": 3471011001
+  },
+  {
+    "kode": "KW",
+    "nama": "KARANGWARU",
+    "kode_angka_kel": 1002,
+    "kode_angka_kel_full": 3471011002
+  },
+  {
+    "kode": "TR",
+    "nama": "TEGALREJO",
+    "kode_angka_kel": 1003,
+    "kode_angka_kel_full": 3471011003
+  }
+]

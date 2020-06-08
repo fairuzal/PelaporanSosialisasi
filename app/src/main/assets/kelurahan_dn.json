@@ -1,0 +1,20 @@
+[
+  {
+    "kode": "BS",
+    "nama": "BAUSASRAN",
+    "kode_angka_kel": 1003,
+    "kode_angka_kel_full": 3471041003
+  },
+  {
+    "kode": "SJ",
+    "nama": "SURYATMAJAN",
+    "kode_angka_kel": 1001,
+    "kode_angka_kel_full": 3471041001
+  },
+  {
+    "kode": "TP",
+    "nama": "TEGALPANGGUNG",
+    "kode_angka_kel": 1002,
+    "kode_angka_kel_full": 3471041002
+  }
+]

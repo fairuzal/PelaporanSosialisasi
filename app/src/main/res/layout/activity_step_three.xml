@@ -1,0 +1,14 @@
+<!--<?xml version="1.0" enc.oding="utf-8"?>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    tools:context=".StepThreeActivity">
+
+    <include layout="@layout/stateprogressbar" />
+    <include layout="@layout/step_three_content"/>
+    <include layout="@layout/footer_buttons" />
+
+</RelativeLayout>

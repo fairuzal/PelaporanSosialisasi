@@ -1,0 +1,20 @@
+[
+  {
+    "kode": "KP",
+    "nama": "KADIPATEN",
+    "kode_angka_kel": 1003,
+    "kode_angka_kel_full": 3471091003
+  },
+  {
+    "kode": "PB",
+    "nama": "PANEMBAHAN",
+    "kode_angka_kel": 1002,
+    "kode_angka_kel_full": 3471091002
+  },
+  {
+    "kode": "PH",
+    "nama": "PATEHAN",
+    "kode_angka_kel": 1001,
+    "kode_angka_kel_full": 3471091001
+  }
+]

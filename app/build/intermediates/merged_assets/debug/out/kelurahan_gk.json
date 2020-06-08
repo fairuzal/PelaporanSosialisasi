@@ -1,0 +1,32 @@
+[
+  {
+    "kode": "BC",
+    "nama": "BACIRO",
+    "kode_angka_kel": 1004,
+    "kode_angka_kel_full": 3471031004
+  },
+  {
+    "kode": "DG",
+    "nama": "DEMANGAN",
+    "kode_angka_kel": 1001,
+    "kode_angka_kel_full": 3471031001
+  },
+  {
+    "kode": "KB",
+    "nama": "KOTABARU",
+    "kode_angka_kel": 1002,
+    "kode_angka_kel_full": 3471031002
+  },
+  {
+    "kode": "KT",
+    "nama": "KLITREN",
+    "kode_angka_kel": 1003,
+    "kode_angka_kel_full": 3471031003
+  },
+  {
+    "kode": "TB",
+    "nama": "TERBAN",
+    "kode_angka_kel": 1005,
+    "kode_angka_kel_full": 3471031005
+  }
+]

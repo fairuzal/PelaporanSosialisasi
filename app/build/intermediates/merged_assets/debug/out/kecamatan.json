@@ -1,0 +1,77 @@
+[
+  {
+    "kode": "DN",
+    "nama": "DANUREJAN",
+    "kode_angka_kec": 4
+  },
+  {
+    "kode": "GK",
+    "nama": "GONDOKUSUMAN",
+    "kode_angka_kec": 3
+  },
+  {
+    "kode": "GM",
+    "nama": "GONDOMANAN",
+    "kode_angka_kec": 10
+  },
+  {
+    "kode": "GT",
+    "nama": "GEDONGTENGEN",
+    "kode_angka_kec": 5
+  },
+  {
+    "kode": "JT",
+    "nama": "JETIS",
+    "kode_angka_kec": 2
+  },
+  {
+    "kode": "KG",
+    "nama": "KOTAGEDE",
+    "kode_angka_kec": 14
+  },
+  {
+    "kode": "KR",
+    "nama": "KRATON",
+    "kode_angka_kec": 9
+  },
+  {
+    "kode": "MG",
+    "nama": "MERGANGSAN",
+    "kode_angka_kec": 12
+  },
+  {
+    "kode": "MJ",
+    "nama": "MANTRIJERON",
+    "kode_angka_kec": 8
+  },
+  {
+    "kode": "NG",
+    "nama": "NGAMPILAN",
+    "kode_angka_kec": 6
+  },
+  {
+    "kode": "PA",
+    "nama": "PAKUALAMAN",
+    "kode_angka_kec": 11
+  },
+  {
+    "kode": "TR",
+    "nama": "TEGALREJO",
+    "kode_angka_kec": 1
+  },
+  {
+    "kode": "UH",
+    "nama": "UMBULHARJO",
+    "kode_angka_kec": 13
+  },
+  {
+    "kode": "WB",
+    "nama": "WIROBRAJAN",
+    "kode_angka_kec": 7
+  },
+  {
+    "kode": "SM",
+    "nama": "SIMULASI",
+    "kode_angka_kec": 15
+  }
+]

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/headerstepbar"
+    tools:context="com.example.pelaporansosialisasi.StepOneActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:elevation="10dp"
+        android:padding="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/pelapor"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/pendamping1"
+                android:text="Nama Pelapor"
+                android:textSize="16dp" />
+            <EditText
+                android:id="@+id/etPelapor"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/pelapor" />
+            <TextView
+                android:id="@+id/tvpendamping1"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/etPelapor"
+                android:layout_marginTop="20dp"
+                android:text="Nama Pendamping"
+                android:textSize="16dp" />
+            <com.example.pelaporansosialisasi.MultipleSelectionSpinner
+                android:id="@+id/pendamping1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/etPelapor"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/tvpendamping1"
+                android:spinnerMode="dropdown"></com.example.pelaporansosialisasi.MultipleSelectionSpinner>
+            <TextView
+                android:id="@+id/tvPenyelenggara"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/pendamping1"
+                android:layout_marginTop="20dp"
+                android:text="Penyelenggara"
+                android:textSize="16dp" />
+            <EditText
+                android:id="@+id/etPenyelenggara"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/pendamping1"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/tvPenyelenggara" />
+            <TextView
+                android:id="@+id/tvJmlPeserta"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvPenyelenggara"
+                android:layout_marginTop="20dp"
+                android:text="Jumlah Peserta"
+                android:textSize="16dp" />
+            <EditText
+                android:id="@+id/etJmlPeserta"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvPenyelenggara"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/tvJmlPeserta"
+                android:inputType="number" />
+            <TextView
+                android:id="@+id/tvKeterangan"
+                style="@style/Base.TextAppearance.AppCompat.Title"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvJmlPeserta"
+                android:layout_marginTop="20dp"
+                android:text="Keterangan Peserta"
+                android:textSize="16dp" />
+            <EditText
+                android:id="@+id/etKeterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvJmlPeserta"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@id/tvKeterangan"
+                android:inputType="text|textMultiLine" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

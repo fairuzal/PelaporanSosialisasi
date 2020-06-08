@@ -1,0 +1,44 @@
+[
+  {
+    "kode": "GN",
+    "nama": "GIWANGAN",
+    "kode_angka_kel": 1007,
+    "kode_angka_kel_full": 3471131007
+  },
+  {
+    "kode": "MM",
+    "nama": "MUJA MUJU",
+    "kode_angka_kel": 1002,
+    "kode_angka_kel_full": 3471131002
+  },
+  {
+    "kode": "PD",
+    "nama": "PANDEYAN",
+    "kode_angka_kel": 1005,
+    "kode_angka_kel_full": 3471131005
+  },
+  {
+    "kode": "SK",
+    "nama": "SEMAKI",
+    "kode_angka_kel": 1001,
+    "kode_angka_kel_full": 3471131001
+  },
+  {
+    "kode": "SS",
+    "nama": "SOROSUTAN",
+    "kode_angka_kel": 1006,
+    "kode_angka_kel_full": 3471131006
+  },
+  {
+    "kode": "TH",
+    "nama": "TAHUNAN",
+    "kode_angka_kel": 1003,
+    "kode_angka_kel_full": 3471131003
+  },
+  {
+    "kode": "WO",
+    "nama": "WARUNGBOTO",
+    "kode_angka_kel": 1004,
+    "kode_angka_kel_full": 3471131004
+  }
+]
